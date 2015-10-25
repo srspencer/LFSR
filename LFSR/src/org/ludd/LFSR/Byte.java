@@ -11,7 +11,7 @@ public class Byte {
 		if(i<4){
 			return lo.getBit(i);
 		}else{
-			return hi.getBit(-4);
+			return hi.getBit(i-4);
 		}
 	}
 
