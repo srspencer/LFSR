@@ -1,4 +1,6 @@
 package org.ludd.LFSR;
+//Utility class to turn 4 boolean bits into a hex string
+//no program logic except that needed for conversion
 
 public class HexNybble {
 	Nybble n;

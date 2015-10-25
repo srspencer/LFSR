@@ -13,8 +13,8 @@ public class Main {
 	public static void main(String[] args) {
 		b=new Byte();
 		b.shift(true);
-		
-		for (int i=0;i<64;i++){
+		for (int yy=0;yy<4;yy++){
+		for (int i=0;i<127;i++){
 			boolean x = Nybble.Xor(b.getBit(7), b.getBit(6));
 			boolean y = Nybble.Xor(x, b.getBit(0));
 			//System.out.println(b.shift(y));
@@ -32,6 +32,8 @@ public class Main {
 			System.out.print(new HexNybble(n));
 		}
 		System.out.println();
+		
+	}
 	}
 
 }
