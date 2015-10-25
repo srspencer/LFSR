@@ -10,6 +10,7 @@ public class Nybble{
 	}
 
 	public Nybble(boolean a, boolean b, boolean c, boolean d){
+		bits = new boolean[4];
 		bits[0]=a;
 		bits[1]=b;
 		bits[2]=c;
